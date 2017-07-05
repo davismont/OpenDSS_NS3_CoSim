@@ -1,0 +1,2 @@
+New "Capacitor.mdv201_hn_2_818_abc63707-1" bus1=63707 kv=13.198602 kvar=[ 300] conn=wye
+New "CapControl.mdv201_hn_2_818_abc63707-1" capacitor=MDV201_HN_2_818_ABC63707-1 element=Line.MDV201_HN_2_819_ABC8177 terminal=1
