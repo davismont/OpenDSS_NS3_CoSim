@@ -1,0 +1,20 @@
+Clear
+
+new circuit.zone2
+~ basekv=12.487376 pu=1.0 phases=3 bus1=51012  
+~ Angle=-34.187683                                        
+~ MVAsc3=200 MVASC1=210
+
+new monitor.ttimesMon element=vsource.source term=1 mode=5
+
+Redirect WireData.DSS
+Redirect LineGeometry.DSS
+Redirect LineCode.DSS
+Redirect LoadShape.DSS
+Redirect GrowthShape.DSS
+Redirect TCC_Curve.DSS
+Redirect Spectrum.DSS
+Redirect zone2\Branches.dss
+Redirect zone2\Transformers.dss
+Redirect zone2\Loads.dss
+Redirect zone2\Capacitors.dss

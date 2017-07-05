@@ -1,0 +1,10 @@
+compile Master.DSS
+new monitor.m1 element=Line.mdv201_da_8_507_abc6580 terminal=1
+new monitor.m2 element=Line.mdv201_c_1_068_abc69490 terminal=1
+
+set mode=yearly controlmode=time hour=0 sec=16800
+set number=1
+calcv
+solve
+export monitor m1
+export monitor m2

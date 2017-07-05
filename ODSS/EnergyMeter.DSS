@@ -1,0 +1,3 @@
+New "EnergyMeter.sub" element=Line.MDV201_connector terminal=1
+New "EnergyMeter.zone1" element=Line.mdv201_hn_2_343_abc829 terminal=1 option=(E, R, C)
+New "EnergyMeter.zone2" element=Line.mdv201_hn_2_093_abc63714 terminal=1 option=(E, R, C)
